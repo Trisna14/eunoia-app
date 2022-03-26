@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Make sure the path to CKEditor is correct. -->
+    <script src="<?php echo base_url(); ?>vendor/backend/assets/ckeditor/ckeditor.js"></script>
+
     <!-- css -->
     <link rel="stylesheet" href="<?php echo base_url(); ?>vendor/assets/fontawesome-free-6.1.0-web/css/all.css">
     <link rel="stylesheet" href="<?php echo base_url(); ?>vendor/backend/css/main.css">
@@ -37,7 +40,7 @@
                 <ul>
                     <li><a href="<?php echo base_url('backend'); ?>"><i class="fa-solid fa-gauge"></i> dashboard</a></li>
                     <li><a href="<?php echo base_url('backend/home/comment'); ?>"><i class="fa-solid fa-comments"></i> comments</a></li>
-                    <li><a href="posting.html"><i class="fa-solid fa-table"></i> posting</a></li>
+                    <li><a href="<?php echo base_url('backend/posting'); ?>"><i class="fa-solid fa-table"></i> posting</a></li>
                 </ul>
             </div>
 
@@ -45,8 +48,8 @@
             <div class="navbar-menu">
                 <span class="title-menu">main user</span>
                 <ul>
-                    <li><a href="<?php echo base_url('backend/home/user'); ?>"><i class="fa-solid fa-user"></i> user</a></li>
-                    <li><a href="<?php echo base_url('backend/home/database'); ?>"><i class="fa-solid fa-database"></i> database</a></li>
+                    <li><a href="<?php echo base_url('backend/user'); ?>"><i class="fa-solid fa-user"></i> user</a></li>
+                    <li><a href="<?php echo base_url('backend/database'); ?>"><i class="fa-solid fa-database"></i> database</a></li>
                   
                 </ul>
             </div>
