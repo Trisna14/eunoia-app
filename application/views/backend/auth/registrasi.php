@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="<?php echo base_url(); ?>vendor/backend/css/auth.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>vendor/assets/fontawesome-free-6.1.0-web/css/all.css">
+
+    <title>Registrasi</title>
+</head>
+<body>
+    
+    <!-- MAIN SCRIPT -->
+    <div class="registrasi">
+        <div class="wrapper">
+            <div class="wrapper-header">
+                <span class="title-page">registrasi</span>
+            </div>
+
+            <div class="wrapper-body">
+                <form action="">
+                    <div class="text-input">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                    <div class="text-input">
+                        <input type="text" name="" id="" placeholder="Email">
+                    </div>
+                    <div class="text-input">
+                        <input type="text" name="" id="" placeholder="Password">
+                    </div>
+                    <div class="text-input">
+                        <input type="text" name="" id="" placeholder="Confirmation Password">
+                    </div>
+                    <div class="upload-input">
+                        <div class="poster">
+                            <img src="" alt="">
+                            <span class="mark"><p>?</p></span>
+                        </div>
+                        <input id="main-input" class="main-input" type="file">
+                        <span id="main-knob" class="main-knob">upload</span>
+                        <span id="input-name" class="input-name"></span>
+                    </div>
+                    <div class="knob">
+                        <button type="submit">sign up</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="wrapper-footer">
+                <span class="nav">
+                    <a href="<?php echo base_url(); ?>">Eunoia.com</a> | 
+                    <a href="<?php echo base_url('backend'); ?>"><i class="fa-solid fa-gears"></i> Panel</a> |
+                    <a href="<?php echo base_url('backend/auth'); ?>">Login</a>
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <!-- END MAIN SCRIPT -->
+
+<script type="module" src="<?php echo base_url(); ?>vendor/backend/js/main.js"></script>
+</body>
+</html>
