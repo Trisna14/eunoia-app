@@ -23,6 +23,13 @@ class Home extends CI_Controller {
 		$this->load->view('backend/template/footer');
 	}
 
+	public function comment () {
+
+		$this->load->view('backend/template/header');
+		$this->load->view('backend/comment/comment');
+		$this->load->view('backend/template/footer');
+	}
+
 	public function logout () {
 
 		$this->session->sess_destroy();
