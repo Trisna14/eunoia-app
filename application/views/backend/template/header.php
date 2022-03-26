@@ -67,7 +67,7 @@
 
         <!-- navbar footer -->
         <div class="navbar_footer">
-            <span class="out"><a href="auth/login.html">logout <i class="fa-solid fa-right-from-bracket"></i></a></span>
+            <span class="out"><a href="<?php echo base_url('backend/home/logout'); ?>">logout <i class="fa-solid fa-right-from-bracket"></i></a></span>
         </div>
     </nav>
     <!-- end nav -->

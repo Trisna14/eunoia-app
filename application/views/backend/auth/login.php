@@ -21,15 +21,15 @@
                 <span class="title-login">login</span>
             </div>
             <div class="login-body">
-                <form action="">
+                <form action="" method="POST">
                     <div class="text-input">
-                        <input type="text" placeholder="Email">
+                        <input name="username" type="text" placeholder="Email">
                     </div>
                     <div class="text-input" >
-                        <input type="text" placeholder="Password">
+                        <input name="password" type="text" placeholder="Password">
                     </div>
                     <div class="knob">
-                        <button type="submit">login</button>
+                        <button name="submit" type="submit">login</button>
                     </div>
                 </form>
             </div>

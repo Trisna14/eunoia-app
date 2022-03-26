@@ -23,17 +23,11 @@ class Home extends CI_Controller {
 		$this->load->view('backend/template/footer');
 	}
 
-	public function hapus () {
-
-		$this->session->unset_tempdata('username');
-
-		// session_destroy();
-
-		// or
+	public function logout () {
 
 		$this->session->sess_destroy();
 
-		echo 'ok';
+		redirect('backend/auth');
 	}
 
 }
